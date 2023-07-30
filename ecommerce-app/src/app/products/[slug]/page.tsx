@@ -1,9 +1,9 @@
 import { client } from "@/sanity/lib/client"
 import { groq } from "next-sanity"
 
-import { SanityProduct } from "@/config/inventory"
-import { ProductGallery } from "@/components/product-gallery"
-import { ProductInfo } from "@/components/product-info"
+import { SanityProduct } from "@/src/config/inventory"
+import { ProductGallery } from "@/src/components/product-gallery"
+import { ProductInfo } from "@/src/components/product-info"
 
 interface Props {}
 

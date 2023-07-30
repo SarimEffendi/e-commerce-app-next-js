@@ -1,7 +1,7 @@
 import Link from "next/link"
 
-import { stripe } from "@/lib/stripe"
-import { CheckoutSession } from "@/components/checkout-session"
+import { stripe } from "@/src/lib/stripe"
+import { CheckoutSession } from "@/src/components/checkout-session"
 
 interface Props {}
 

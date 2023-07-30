@@ -2,8 +2,8 @@ import { useState } from "react"
 import Image from "next/image"
 import { urlForImage } from "@/sanity/lib/image"
 
-import { SanityProduct } from "@/config/inventory"
-import { shimmer, toBase64 } from "@/lib/image"
+import { SanityProduct } from "@/src/config/inventory"
+import { shimmer, toBase64 } from "@/src/lib/image"
 
 interface Props {}
 

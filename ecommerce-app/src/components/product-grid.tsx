@@ -6,8 +6,8 @@ import { urlForImage } from "@/sanity/lib/image"
 import { XCircle } from "lucide-react"
 import { formatCurrencyString } from "use-shopping-cart"
 
-import { SanityProduct } from "@/config/inventory"
-import { shimmer, toBase64 } from "@/lib/image"
+import { SanityProduct } from "@/src/config/inventory"
+import { shimmer, toBase64 } from "@/src/lib/image"
 
 interface Props {}
 

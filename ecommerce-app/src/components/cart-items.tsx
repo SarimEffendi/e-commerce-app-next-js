@@ -7,12 +7,12 @@ import { Clock, X } from "lucide-react"
 import { formatCurrencyString, useShoppingCart } from "use-shopping-cart"
 import { Product } from "use-shopping-cart/core"
 
-import { shimmer, toBase64 } from "@/lib/image"
-import { getSizeName } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { useToast } from "@/components/ui/use-toast"
-import { CartItemsEmpty } from "@/components/cart-items-empty"
+import { shimmer, toBase64 } from "@/src/lib/image"
+import { getSizeName } from "@/src/lib/utils"
+import { Button } from "@/src/components/ui/button"
+import { Input } from "@/src/components/ui/input"
+import { useToast } from "@/src/components/ui/use-toast"
+import { CartItemsEmpty } from "@/src/components/cart-items-empty"
 
 export function CartItems() {
   function removeCartItem() {}

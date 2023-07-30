@@ -9,7 +9,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
+} from "@/src/components/ui/select"
 import {
   Sheet,
   SheetContent,
@@ -17,8 +17,8 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet"
-import { ProductFilters } from "@/components/product-filters"
+} from "@/src/components/ui/sheet"
+import { ProductFilters } from "@/src/components/product-filters"
 
 const sortOptions = [
   { name: "Newest", value: "/?date=desc" },

@@ -7,8 +7,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-import { Checkbox } from "@/components/ui/checkbox"
+} from "@/src/components/ui/accordion"
+import { Checkbox } from "@/src/components/ui/checkbox"
 
 const filters = [
   {
